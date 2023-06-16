@@ -12,7 +12,7 @@ public class AddNumber2 {
 		System.out.println(" enter second number");
 		int num2 = sc.nextInt();
 		int sum = 0;
-
+System.out.println("addition");
 		sum = num1 + num2;
 
 		System.out.println(sum);
