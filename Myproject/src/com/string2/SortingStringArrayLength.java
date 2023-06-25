@@ -30,7 +30,7 @@ public class SortingStringArrayLength {
 		System.out.println("Before Sorting:");
 		System.out.println(Arrays.toString(str));
 
-		System.out.println();
+   System.out.println(".........................................");
 		System.out.println("AfterSorting:");
 		sortStringArray(str);
 
