@@ -24,10 +24,10 @@ public class DuplicateString {
 
 			}
 			if (count > 1) { // duplicate char
-				System.out.println(ch[i] + " " + count);
-			} else if (count == 1) { // unique car
-				System.out.println(ch[i] + " " + count);
-
+				System.out.print(ch[i] );
+//			} else if (count == 1) { // unique car
+//				System.out.println(ch[i] + " " + count);
+//
 			}
 		}
 

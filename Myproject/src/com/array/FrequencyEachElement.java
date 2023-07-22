@@ -1,10 +1,7 @@
 package com.array;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class FrequencyEachElement {
-
 	public void frequencyele(int a[]) {
 		System.out.println(Arrays.toString(a));
 		for (int i = 0; i < a.length; i++) {
@@ -25,11 +22,7 @@ public class FrequencyEachElement {
 					}
 				}
 				System.out.println(a[i] + " " + cnt);
-			}
-
-		}
-
-	}
+			}}}
 
 	public static void main(String[] args) {
 

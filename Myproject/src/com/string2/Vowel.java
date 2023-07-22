@@ -12,7 +12,7 @@ public class Vowel {
 			if (ch[i] == 'A' || ch[i] == 'a' || ch[i] == 'E' || ch[i] == 'e' || ch[i] == 'I' || ch[i] == 'i'
 					|| ch[i] == 'O' || ch[i] == 'o' || ch[i] == 'U' || ch[i] == 'u') {
 				System.out.println(ch[i]);
-				ch[i]='$';
+				//ch[i]='$';
 				
 				count++;
                        

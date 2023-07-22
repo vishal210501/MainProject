@@ -1,7 +1,6 @@
 package com.array;
 import java.util.Scanner;
 public class Maxele {
-	
 	public void Max(int a[]){
 		int maxele=a[0];
 		int minele=a[0];
@@ -15,8 +14,7 @@ public class Maxele {
 			}
 			
 		}
-		System.out.println("maxelelement="+maxele+", "+"minelement="+minele);
-		
+		System.out.println("maxelelement="+maxele+", "+"minelement="+minele);	
 	}
 
 	public static void main(String[] args) {
@@ -27,12 +25,8 @@ public class Maxele {
 		for(int i=0; i<a.length; i++) {
 			a[i]=sc.nextInt();
 		}
-		
 		Maxele m= new Maxele();
-		m.Max(a);
-		
-		
-		
+		m.Max(a);		
 
 	}
 

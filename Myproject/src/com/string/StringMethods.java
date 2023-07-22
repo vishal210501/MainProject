@@ -20,7 +20,8 @@ public class StringMethods {
 		//System.out.println(s2.isBlank());// 
 		System.out.println(s1.replace('P','r'));// 1st char will replace with 2nd char which we inputted
         System.out.println(s1.codePointAt(2));// getting ascii value(reminder - indexwise)
-	    
-
+        System.out.println(s1.substring(4));// for getting subString from original String(just add index number from u want ur substring)
+	   // System.out.println(s1.join(" ", String));
+         System.out.println();
 }
 }

@@ -20,16 +20,18 @@ public class DuplicateString2 {
 						count++;
 					}
 				}
-//				if (count > 1) { // for duplicate 
-//					System.out.println(ch[i] + "" + count);
+			//if (count > 1) { // for duplicate 
+				//System.out.println(ch[i] + "" + count);
 //				}else if(count==1) {// for unique
 //					System.out.println(ch[i]);
 //				}
 				System.out.println(ch[i]+" "+count);//for frequency 
 			}
+			}
 		}
+		
 
-	}
+	
 
 	public static void main(String[] args) {
 		String str = "missipsi";

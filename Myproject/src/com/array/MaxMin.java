@@ -2,7 +2,7 @@ package com.array;
 //maxnumber
 import java.util.Scanner;
 
-public class Logicd4 {
+public class MaxMin {
 
 	public void maxnum(char a[]) {
 		char maxchar = a[0];
@@ -32,7 +32,7 @@ public class Logicd4 {
 
 		}
 
-		Logicd4 lg = new Logicd4();
+		MaxMin lg = new MaxMin();
 		lg.maxnum(a);
 
 	}

@@ -34,7 +34,7 @@ public class Department {
 
 	@Override
 	public String toString() {
-		return "1."+"id="+id + "\n2. " + "name="+name + "\n3.1 " + emp;
+		return "1."+"id="+id + "\n2. " + "name="+name + "\n3 " + emp;
 	}
 
 	public static void main(String[] args) {

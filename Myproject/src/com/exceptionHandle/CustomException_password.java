@@ -14,13 +14,13 @@ class InvalidCharacterException extends RuntimeException {
 
 }
 
-class InvalidLengthException extends RuntimeException {
+class InvalidLengthhException extends RuntimeException {
 
-	public InvalidLengthException() {
+	public InvalidLengthhException() {
 		super();
 	}
 
-	public InvalidLengthException(String length) {
+	public InvalidLengthhException(String length) {
 		super(length);
 	}
 }
@@ -66,7 +66,7 @@ public class CustomException_password {
 		} catch (InvalidLengthException e1) {
 			e1.printStackTrace();
 		}
-	
+
 	}
 
 }

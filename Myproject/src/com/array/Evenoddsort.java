@@ -31,8 +31,8 @@ public class Evenoddsort {
 			}
 
 		}
-		System.out.println("even="+Arrays.toString(even));
-		System.out.println("odd="+Arrays.toString(odd));
+		System.out.println("even=" + Arrays.toString(even));
+		System.out.println("odd=" + Arrays.toString(odd));
 
 	}
 

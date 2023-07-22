@@ -3,8 +3,7 @@ package labsession;
 abstract class Hello {
 
 	public Hello(String type) {
-		System.out.println("hello="+type);
-		
+		System.out.println("hello=" + type);
 
 	}
 
@@ -28,11 +27,6 @@ class Test extends Hello {
 public class Abstract {
 
 	public static void main(String[] args) {
-
-		Hello h = new Test();
-		h.show();
-		
-		
 
 	}
 
